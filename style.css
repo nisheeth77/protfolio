@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(204, 241, 190);
+    margin: 0 0px;
+    
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 12vh;
+    background-color: antiquewhite;
+  
+}
+li{
+    display: inline;
+    padding: 0px 60px;
+    font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.name{
+    font-size:40px;
+    font-weight: 1200;
+    position: relative;
+    top: 10px;
+    left: -130px;
+    color:rgb(174, 248, 105);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.nav_items{
+    list-style-type: none; 
+    position: relative;
+    top: 20px;
+    left: 120px;
+    
+}
+.navbar_list{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.home{
+    margin:50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+   
+   
+}
+.info{
+    width: 50%;
+    position: relative;
+    top: 100px;
+    
+  
+   
+}
+.hi{
+    font-size: 30px;
+    color  :rgb(0, 238, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.second_line{
+    color: rgb(19, 196, 196);
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.last_line{
+    font-size:30px;
+    color :rgb(0, 238, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.image{
+    width: 50%;
+    position: relative;
+    bottom: 20px;
+
+}
+.prof{
+    width :400px;
+    height :380px;
+    border-radius: 50%;
+}
+.My_Skills{
+    width : 100%;
+    height :100vh;
+    background-color:palevioletred;
+}
+.heading{
+    text-align: center;
+    font-size :30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding:30px;
+    
+
+}
+.flex{
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.img1{
+    height: 350px;
+    width: 350px;
+}
+.html{
+    text-align:center;
+}
+.projects{
+    width : 100%;
+    height :100vh;
+    background-color:rgb(205, 129, 255);
+}
