@@ -87,14 +87,15 @@ li{
     font-style: italic;
 }
 .second_line{
-    color: rgb(19, 196, 196);
+    color: rgb(145, 109, 32);
     font-size: 40px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
 }
 .last_line{
     font-size:30px;
-    color :rgb(0, 238, 255);
+    color :rgb(5, 102, 29);
+    font-weight: bolder;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
 }
@@ -102,6 +103,7 @@ li{
     width: 50%;
     position: relative;
     bottom: 20px;
+    border-radius: 5px;
 
 }
 .prof{
@@ -133,6 +135,7 @@ li{
 .img1{
     height: 350px;
     width: 350px;
+    border-radius: 20px;
 }
 .html{
     text-align:center;
