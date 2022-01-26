@@ -33,12 +33,14 @@ li{
  color: rgb(137, 137, 211);
  padding: 5px;
  transition: 0.3s;
+ border-radius: 20px;
  
 }
 .navbar_list:hover{
     background-color:rgb(137, 137, 211);
     color: white;
-    border-radius: 20px;
+  
+    transition: 0.3s;
   
 }
 .name{
@@ -98,6 +100,16 @@ li{
     font-weight: bolder;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
+}
+.link{
+    padding : 3px;
+    border-radius: 20px;
+    background-color: rgb(87, 83, 83);
+    
+}
+.link:hover{
+    background-color:rgb(161, 152, 152); 
+    transition: 0.3s;
 }
 .image{
     width: 50%;
