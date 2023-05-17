@@ -24,9 +24,9 @@
 }
 li{
     display: inline;
-    padding: 0px 25px;
-    font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+    padding: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     
 }
 .navbar_list{
@@ -48,10 +48,10 @@ li{
     font-weight: 1200;
     position: relative;
     top: 10px;
-    left: -130px;
+    left: -100px;
     color:rgb(174, 248, 105);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 .nav_items{
     list-style-type: none; 
@@ -85,22 +85,22 @@ li{
 .hi{
     font-size: 30px;
     color  :rgb(0, 238, 255);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 .second_line{
     color: rgb(145, 109, 32);
     font-size: 40px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 .last_line{
     overflow:hidden;
     font-size:30px;
     color :rgb(5, 102, 29);
     font-weight: bolder;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     white-space: nowrap;
     
     animation: 
@@ -131,8 +131,8 @@ li{
 }
 .prof{
     width :400px;
-    height :380px;
-    border-radius: 50%;
+    height :450px;
+    border-radius: 30%;
 }
 .My_Skills{
     width : 100%;
@@ -142,8 +142,7 @@ li{
 .heading{
     text-align: center;
     font-size :30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+    font-family: 'Poppins', sans-serif;
     padding:30px;
     
 
@@ -167,6 +166,8 @@ li{
 }
 .html{
     text-align:center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 .projects{
     width : 100%;
@@ -178,4 +179,10 @@ li{
     width : 100%;
     height :100vh;
     background-color:rgb(255, 192, 84); 
+}
+.compiler
+{
+    width : 100%;
+    height :100vh;
+    background-color:rgb(207, 255, 84);
 }
