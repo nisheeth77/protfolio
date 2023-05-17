@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-evenly;
     
-    height: 12vh;
+    height: 13.8vh;
     background-color: antiquewhite;
   
 }
@@ -71,7 +71,7 @@ li{
     display: flex;
     justify-content: space-between;
     
-   
+    gap: 150px;
    
 }
 .info{
@@ -83,20 +83,20 @@ li{
    
 }
 .hi{
-    font-size: 30px;
+    font-size: 40px;
     color  :rgb(0, 238, 255);
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 .second_line{
     color: rgb(145, 109, 32);
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 .last_line{
     overflow:hidden;
-    font-size:30px;
+    font-size:40px;
     color :rgb(5, 102, 29);
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
@@ -130,9 +130,9 @@ li{
 
 }
 .prof{
-    width :400px;
-    height :450px;
-    border-radius: 30%;
+    width :350px;
+    height :420px;
+    border-radius: 10%;
 }
 .My_Skills{
     width : 100%;
